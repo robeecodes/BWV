@@ -122,6 +122,7 @@ leaf-element {
   transform-origin: center;
   cursor: pointer;
   z-index: 0;
+  //filter: drop-shadow(2px 2px 80px rgba(241, 235, 153, 0.19));
 
   /*>img {
     //width: 100%;
@@ -157,11 +158,35 @@ leaf-element {
     top: 33%;
     left: 86%;
   }
+
+  &:nth-of-type(7) {
+    top: 13%;
+    left: 47%;
+  }
+
+  &:nth-of-type(8) {
+    top: 21%;
+    left: 40%;
+  }
+
+  &:nth-of-type(9) {
+    top: 28%;
+    left: 48%;
+  }
+
+  &:nth-of-type(10) {
+    top: 19%;
+    left: 53%;
+  }
+
+  &:nth-of-type(11) {
+    top: 31%;
+    left: 35%;
+  }
 }
 
 .bwv-display-message-box {
   display: none;
-  max-height: 35%;
   position: absolute;
   top: 50%;
   left: 49%;
@@ -181,7 +206,7 @@ leaf-element {
   box-shadow: -1px -1px 1px 1px rgba(255, 255, 255, 0.1);
   border-right: 1px solid #ffffff3b;
   border-bottom: 1px solid #ffffff3b;
-  max-width: 80%;
+  max-width: 60%;
 }
 
 .vine {
@@ -243,7 +268,12 @@ leaf-element {
 
     &:nth-of-type(4),
     &:nth-of-type(5),
-    &:nth-of-type(6) {
+    &:nth-of-type(6),
+    &:nth-of-type(7),
+    &:nth-of-type(8),
+    &:nth-of-type(9),
+    &:nth-of-type(10),
+    &:nth-of-type(11) {
       display: none;
     }
   }
